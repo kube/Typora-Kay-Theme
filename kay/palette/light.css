@@ -1,0 +1,56 @@
+
+      /*#######.
+     ########",#:
+   #########',##".
+  ##'##'## .##',##.
+   ## ## ## # ##",#.
+    ## ## ## ## ##'
+     ## ## ## :##
+      ## ## ##*/
+
+:root {
+  --bg-contrast: #ffffff;
+  --bg-color: #ecebe8;
+  --side-bar-bg-color: rgb(0, 0, 0, 0);
+  --text-color: #18191a;
+  --title-color: #393a3d;
+
+  --select-text-bg-color: #978daa;
+  --select-text-color: rgb(31, 29, 29);
+
+  --item-hover-bg-color: #cfd3df;
+  --control-text-color: #b7b7b7;
+  --control-text-hover-color: rgb(0, 0, 0);
+  --window-border: 1px solid #555;
+
+  --link-color: #000000;
+
+  --active-file-text-color: black;
+  --item-hover-bg-color: #70717d;
+  --item-hover-text-color: white;
+  --primary-color: #2e88b3;
+
+  --rawblock-edit-panel-bd: #333;
+
+  --code-background-color: #f7f5f4;
+
+  --highlight-mark-foreground: rgb(0, 0, 0);
+  --highlight-mark-background: rgb(46, 221, 154);
+}
+
+.on-focus-mode {
+  --blurred-opacity: 0.85;
+}
+
+/* Code Highlighting */
+.CodeMirror {
+  --color-cursor: #455364;
+  --color-foreground: #768494;
+  --color-background: #f7f5f4ff;
+  --color-comment: #B3B1B8;
+  --color-pink: #E60C6A;
+  --color-purple: #5A41BF;
+  --color-blue: #3A8CC7;
+  --color-cyan: #0EB3B3;
+  --color-yellow: rgb(218, 179, 10);
+}

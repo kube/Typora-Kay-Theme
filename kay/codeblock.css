@@ -1,0 +1,121 @@
+
+      /*#######.
+     ########",#:
+   #########',##".
+  ##'##'## .##',##.
+   ## ## ## # ##",#.
+    ## ## ## ## ##'
+     ## ## ## :##
+      ## ## ##*/
+
+.CodeMirror {
+  color: var(--color-foreground);
+  background-color: var(--color-background);
+}
+
+.CodeMirror-gutters {
+  border-right: 1px solid transparent;
+}
+
+.CodeMirror-scroll,
+.cm-s-inner {
+  background: none !important;
+}
+
+.cm-s-inner .cm-operator,
+.cm-s-inner .cm-property {
+  color: var(--color-purple);
+}
+
+.cm-s-inner .cm-keyword {
+  color: var(--color-purple);
+}
+
+.cm-s-inner .cm-tag {
+  color: var(--color-blue);
+}
+
+.cm-s-inner .cm-attribute {
+  color: var(--color-pink);
+}
+
+.CodeMirror div.CodeMirror-cursor {
+  border-left: 1px solid;
+  border-color: var(--color-cursor);
+  z-index: 3;
+}
+
+.cm-s-inner .cm-string {
+  color: var(--color-cyan);
+}
+
+.cm-s-inner .cm-comment,
+.cm-s-inner.cm-comment {
+  color: var(--color-comment);
+}
+
+.cm-s-inner .cm-header,
+.cm-s-inner .cm-def,
+.cm-s-inner.cm-header,
+.cm-s-inner.cm-def {
+  color: var(--color-pink);
+}
+
+.cm-s-inner .cm-quote,
+.cm-s-inner.cm-quote {
+  color: var(--color-cyan);
+}
+
+.cm-s-inner .cm-hr {
+  color: var(--color-cyan);
+}
+
+.cm-s-inner .cm-link {
+  color: var(--color-cyan);
+}
+
+.cm-s-inner .cm-negative {
+  color: var(--color-cyan);
+}
+
+.cm-s-inner .cm-positive {
+  color: var(--color-cyan);
+}
+
+.cm-s-inner .cm-string-2 {
+  color: var(--color-cyan);
+}
+
+.cm-s-inner .cm-meta,
+.cm-s-inner .cm-qualifier {
+  color: var(--color-cyan);
+}
+
+.cm-s-inner .cm-builtin {
+  color: var(--color-pink);
+}
+
+.cm-s-inner .cm-bracket {
+  color: var(--color-yellow);
+}
+
+.cm-s-inner .cm-atom,
+.cm-s-inner.cm-atom {
+  color: var(--color-blue);
+}
+
+.cm-s-inner .cm-number {
+  color: var(--color-cyan);
+}
+
+.cm-s-inner .cm-variable {
+  color: var(--color-blue);
+}
+
+.cm-s-inner .cm-variable-2 {
+  color: var(--color-blue);
+}
+
+.cm-s-inner .cm-variable-3 {
+  color: var(--color-blue);
+}

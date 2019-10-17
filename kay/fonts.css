@@ -1,0 +1,107 @@
+
+      /*#######.
+     ########",#:
+   #########',##".
+  ##'##'## .##',##.
+   ## ## ## # ##",#.
+    ## ## ## ## ##'
+     ## ## ## :##
+      ## ## ##*/
+
+/* Montserrat */
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+  src: url('./fonts/Montserrat/Montserrat-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/Montserrat/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 500;
+  src: url('./fonts/Montserrat/Montserrat-MediumItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 600;
+  src: url('./fonts/Montserrat/Montserrat-SemiBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 700;
+  src: url('./fonts/Montserrat/Montserrat-BoldItalic.ttf');
+}
+
+/* Inter UI */
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/Inter-UI/Inter-UI-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style: italic;
+  font-weight: normal;
+  src: url('./fonts/Inter-UI/Inter-UI-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style: normal;
+  font-weight: bold;
+  src: url('./fonts/Inter-UI/Inter-UI-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style: italic;
+  font-weight: bold;
+  src: url('./fonts/Inter-UI/Inter-UI-BoldItalic.ttf');
+}
+
+/* Variables */
+
+:root {
+  --title-font: Montserrat;
+  --text-font: Inter UI;
+  --comment-font: Inter UI;
+  --code-font: SF Mono, Hasklig, Menlo, Monaco, Consolas, 'Andale Mono',
+    'DejaVu Sans Mono', monospace;
+}

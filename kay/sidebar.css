@@ -1,0 +1,90 @@
+
+      /*#######.
+     ########",#:
+   #########',##".
+  ##'##'## .##',##.
+   ## ## ## # ##",#.
+    ## ## ## ## ##'
+     ## ## ## :##
+      ## ## ##*/
+
+/* Sidebar */
+
+#typora-sidebar {
+  user-select: none;
+  -webkit-user-select: none;
+  z-index: 424242;
+  position: fixed;
+  border-right: none;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.13);
+}
+
+#typora-sidebar-resizer {
+  position: fixed;
+  z-index: 42424243;
+}
+
+.sidebar-tabs {
+  border-bottom: 0;
+}
+
+#typora-sidebar:hover .outline-title-wrapper {
+  border-left: 1px dashed;
+}
+
+.sidebar-footer-item:hover,
+.footer-item:hover {
+  color: white;
+}
+
+#sidebar-files-menu {
+  margin-bottom: 1px;
+  border: solid 1px;
+  background-color: var(--bg-color);
+  border-color: rgba(var(--title-color), 0.13);
+}
+
+.file-list-item {
+  border-bottom: none;
+}
+
+.file-list-item-summary {
+  opacity: 1;
+}
+
+.file-list-item.active:first-child {
+  border-top: none;
+}
+
+.file-node-background {
+  height: 32px;
+}
+
+.file-library-node.active > .file-node-content,
+.file-list-item.active {
+  color: var(--active-file-text-color);
+  border-left: 3px solid;
+  border-color: var(--primary-color);
+  background-color: rgba(var(--bg-contrast), 0.11);
+}
+
+.file-list-item.active {
+  border-left: 3px solid;
+  border-color: var(--primary-color);
+}
+
+#ty-tooltip {
+  z-index: 42424243;
+  border-radius: 2px;
+  background-color: black;
+  color: #eee;
+}
+
+#typora-sidebar:hover
+  div.sidebar-content-content::-webkit-scrollbar-thumb:horizontal {
+  background: rgba(230, 230, 230, 0.3);
+}
+
+.nav-group-item:active {
+  background-color: rgba(var(--bg-contrast), 0.11);
+}

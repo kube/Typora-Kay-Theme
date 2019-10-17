@@ -1,0 +1,33 @@
+
+      /*#######.
+     ########",#:
+   #########',##".
+  ##'##'## .##',##.
+   ## ## ## # ##",#.
+    ## ## ## ## ##'
+     ## ## ## :##
+      ## ## ##*/
+
+/** Focus Mode */
+
+.on-focus-mode .md-end-block:not(.md-focus):not(.md-focus-container) * {
+  opacity: var(--blurred-opacity);
+}
+
+.on-focus-mode .md-end-block:not(.md-focus) img,
+.on-focus-mode .md-task-list-item:not(.md-focus-container) > input {
+  opacity: var(--blurred-opacity);
+}
+
+.on-focus-mode .md-focus,
+.on-focus-mode .md-focus-container {
+  opacity: 1;
+}
+
+.on-focus-mode
+  #typora-source
+  .CodeMirror-code
+  > *:not(.CodeMirror-activeline)
+  * {
+  opacity: var(--blurred-opacity);
+}
