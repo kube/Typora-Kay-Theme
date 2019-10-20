@@ -11,7 +11,7 @@
 :root {
   --bg-contrast: #000000;
   --bg-color: rgb(44, 45, 47);
-  --side-bar-bg-color: rgb(0, 0, 0, 0);
+  --sidebar-bg-color: rgb(32, 33, 35);
   --text-color: #e9e9e5;
   --title-color: #c9c9c3;
 
@@ -32,7 +32,7 @@
 
   --rawblock-edit-panel-bd: #333;
 
-  --code-background-color: #14161A;
+  --code-background-color: rgba(20, 22, 26, .67);
 
   --highlight-mark-foreground: rgb(255, 255, 250);
   --highlight-mark-background: rgb(48, 167, 121);

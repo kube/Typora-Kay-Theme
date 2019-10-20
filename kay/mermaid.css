@@ -8,16 +8,41 @@
      ## ## ## :##
       ## ## ##*/
 
+/* Mermaid */
+pre[mermaid-type="graph"]
+.md-diagram-panel-preview {
+
+}
+
+pre[mermaid-type="sequenceDiagram"]
+.md-diagram-panel-preview {
+
+}
+
+pre[mermaid-type="gantt"]
+.md-diagram-panel-preview {
+
+}
+
+pre[mermaid-type="classDiagram"]
+.md-diagram-panel-preview {
+
+}
+
+
+pre[mermaid-type="gitGraph:"]
+.md-diagram-panel-preview {
+
+}
+
 /* Flowchart Variables */
 /* Sequence Diagram Variables */
 /* Gantt Chart Variables */
 
-.mermaid .label {
-  color: #323d47;
-}
-
-g.label {
-  color: #333;
+.mermaid .label,
+g.label  {
+  font-weight: 800;
+  color: var(--title-color);
 }
 
 .node rect,
